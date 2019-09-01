@@ -240,13 +240,17 @@ p {
 }
 
 .footer {
-	margin-bottom: 10px;
 	position: absolute;
     	left: 0;
     	bottom: 0;
     	height: 100px;
     	width: 100%;
     	overflow: hidden;
+	display: table;
+   	text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+	margin-bottom: 10px;
 }
 
 .footer p {
